@@ -4,6 +4,8 @@
 
 # fetch-h2
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/grantila/fetch-h2.svg)](https://greenkeeper.io/)
+
 HTTP/2 [Fetch API](https://developer.mozilla.org/docs/Web/API/Fetch_API) implementation for Node.js (using Node.js' built-in `http2` module). This module is intended to be solely for HTTP/2, handling HTTP/2 sessions transparently. For an HTTP/1(.1)-only alternative, you can use [node-fetch](https://github.com/bitinn/node-fetch).
 
 The module tries to adhere to the [Fetch API](https://developer.mozilla.org/docs/Web/API/Fetch_API) very closely, but extends it slightly to fit better into Node.js (e.g. using streams).
